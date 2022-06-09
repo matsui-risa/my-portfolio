@@ -66,9 +66,9 @@ export default function Home() {
             </p>
 
             <div className={styles.mainButton}>
-              <button className={styles.introduceButton} onclick="#">自己紹介</button>
-              <button className={styles.sportsButton} onclick="#">スポーツ</button>
-              <button className={styles.likeButton} onclick="#">好きな○○</button>
+              <button className={styles.introduceButton} onClick="#">自己紹介</button>
+              <button className={styles.sportsButton} onClick="#">スポーツ</button>
+              <button className={styles.likeButton} onClick="#">好きな○○</button>
             </div>
           </div>
         </div>
@@ -136,14 +136,14 @@ export default function Home() {
                 バスケットボール
               </p>
               <div className={styles.sports1}> 
-                <button className={styles.elementarySchool} onclick="#"><strong>小学校</strong></button>
+                <button className={styles.elementarySchool} onClick="#"><strong>小学校</strong></button>
                 <div className={styles.basketballPicture}/>
               </div>
             </div>
       
             <div className={styles.softball}> 
               <div className={styles.sports2}> 
-                <button className={styles.jHighSchool} onclick="#"><strong>中学校</strong></button>
+                <button className={styles.jHighSchool} onClick="#"><strong>中学校</strong></button>
                 <div className={styles.softballPicture}/>
               </div>
               <p className={styles.softballWord}>
@@ -156,14 +156,14 @@ export default function Home() {
                 硬式テニス
               </p>
               <div className={styles.sports3}> 
-                <button className={styles.highSchool} onclick="#"><strong>高校</strong></button>
+                <button className={styles.highSchool} onClick="#"><strong>高校</strong></button>
                 <div className={styles.tennisPicture}/>
               </div>
             </div>
 
             <div className={styles.volleyball}> 
               <div className={styles.sports4}> 
-                <button className={styles.university} onclick="#"><strong>大学</strong></button>
+                <button className={styles.university} onClick="#"><strong>大学</strong></button>
                 <div className={styles.volleyballPicture}/>
               </div>
               <p className={styles.volleyballWord}> 
@@ -200,14 +200,14 @@ export default function Home() {
               好きなネタはマグロ、サーモン、ホタテです
             </p>
             <div className={styles.like1}> 
-              <button className={styles.likeFood} onclick="#"><strong>好きな食べ物</strong></button>
+              <button className={styles.likeFood} onClick="#"><strong>好きな食べ物</strong></button>
               <div className={styles.sushiPicture}/>
             </div>
           </div>
 
           <div className={styles.okinawa}> 
             <div className={styles.like2}> 
-              <button className={styles.likePlace} onclick="#"><strong>好きな場所</strong></button>
+              <button className={styles.likePlace} onClick="#"><strong>好きな場所</strong></button>
               <div className={styles.okinawaPicture}/>
             </div>
             <p className={styles.okinawaExplain}>
@@ -223,14 +223,14 @@ export default function Home() {
                 山内のサイコパスなお笑い、最高！
             </p>
             <div className={styles.like3}> 
-              <button className={styles.likePeople} onclick="#"><strong>好きな芸人</strong></button>
+              <button className={styles.likePeople} onClick="#"><strong>好きな芸人</strong></button>
               <div className={styles.kamaitatiPicture}/>
             </div>
           </div>
 
           <div className={styles.manga}> 
             <div className={styles.like4}> 
-              <button className={styles.likeManga} onclick="#"><strong>好きな漫画</strong></button>
+              <button className={styles.likeManga} onClick="#"><strong>好きな漫画</strong></button>
               <div className={styles.mangaPicture}/>
             </div>
             <p className={styles.mangaExplain}> 
