@@ -184,7 +184,6 @@ export default function Home() {
 
         {/*好きな○○のページ-------------------------------------------*/}
 
-        {/*好きな○○のページ終わり-------------------------------------------*/}
         <div className={styles.like} id="like">
 
           <h2 className={styles.likeTitle}>
@@ -243,7 +242,7 @@ export default function Home() {
 
         </div> 
 
-
+      {/*好きな○○のページ終わり-------------------------------------------*/}
 
       </main>
 
